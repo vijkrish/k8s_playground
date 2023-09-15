@@ -1,0 +1,4 @@
+Browser -> Mongo Express External Service -> Mongo Express running in a pod -> Mongo DB internal service -> MongoDB running in a pod
+
+Secrets such as DB user and DB passwd shold be passed through env variables
+Youtube video reference: https://www.youtube.com/watch?v=X48VuDVv0do&t=3726s
